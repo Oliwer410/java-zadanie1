@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Przykład nr tutaj wpisz odpowiedni nume </title>
+    <script language="JavaScript">
+        function WinOpen_Cylkowski() {
+            window.open("obraz.html", "okienko", "toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+        }
+    </script>
+</head>
+<!--
+Metoda open() otwiera nowe okno przeglądarki lub nową kartę, w zależności od ustawień przeglądarki i wartości parametrów
+toolbar=no  np. ukrywa przyciski katalogów
+directories=no, - wartość yes lub no (1 lub 0): pokazuje lub ukrywa przyciski katalogów
+menubar=no, -wartość yes lub no (1 lub 0): pokazuje lub ukrywa menu przeglądarki
+height=280, - wartość w pixelach : ustawia wysokość okna
+width=160, - wartość w pixelach : ustawia szerokość okna
+top=200, - wartość w pixelach : ustawia położenie okna względem góry ekranu
+left=200 - wartość w pixelach : ustawia położenie okna względem lewej strony ekranu
+window.close()
+-->
+<body>
+    <form>
+        <input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_Cylkowski(' ')">
+        Dodanie przycisku, funkcja "button" nazwa "przycisk" dzałanie 1 klick , funkcja otwieranie nowej storny o naziwe "WinOpen_Cylkowski"
+    </form>
+
+    <form action="https://github.com/Oliwer410/java-zadanie1-2">
+        <input type="submit" value="Home" />
+    </form>
+
+    <form action="https://github.com/Oliwer410/java-zadanie1-2">
+        <input type="submit" value="Zadanie2" />
+    </form>
+
+</body>
+</html>
